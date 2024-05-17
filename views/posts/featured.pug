@@ -6,4 +6,4 @@
             .my-1.text-muted #{ post.created_at }
             p.card-text.mb-auto
                 | #{ post.body.slice(0, 180) }...
-            a.stretched-link(href=`/${ post.slug }`) Continue reading
+            a.stretched-link(href=`http://localhost:3000/post/${ post.slug }`) Continue reading
