@@ -12,11 +12,11 @@ A simple blog application built with Node.js, Express, and Pug. It allows users 
 **Installation Steps:**
 
 1. **Download or Clone the Repository:**
-    * **Option 1: Download ZIP:** Visit the project repository on GitHub ([https://github.com/topics/express-blog](https://github.com/topics/express-blog)) and download the ZIP file.
+    * **Option 1: Download ZIP:** Visit the project repository on GitHub ([https://github.com/topics/express-blog](https://github.com/Hestia-Arc/express-blog-assignmentBD05)) and download the ZIP file.
     * **Option 2: Clone Repository:** If you're comfortable with Git, you can clone the repository using the following command in your terminal:
 
         ```bash
-        git clone https://github.com/simioluwatomi/express-blog.git
+        git clone https://github.com/Hestia-Arc/express-blog-assignmentBD05.git
         ```
 
 2. **Install Dependencies:**
