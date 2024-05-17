@@ -3,9 +3,9 @@
     header.blog-header.lh-1.py-3
         .row.flex-nowrap.justify-content-between.align-items-center
             .text-center
-                a.blog-header-logo.text-dark(href='#') She Code Queens
+                a.blog-header-logo.text-dark(href='#') Hestia's Blog
     // navigation bar
     .nav-scroller.py-1.mb-2
         nav.nav.d-flex.justify-content-between
             each item in links
-                a.p-2.link-secondary(href=`categories/${item}`) #{ item }
+                 a.p-2.link-secondary(href=`http://localhost:3000/categories/${item}`) #{ item }

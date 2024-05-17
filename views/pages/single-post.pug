@@ -1,0 +1,8 @@
+article.blog-post
+        h2.blog-post-title.mb-1 #{post[0].title}
+        p.blog-post-meta
+            | #{ post[0].created_at } by
+            |
+            a(href='#') #{ post[0].author }
+        p
+            | #{ post[0].body }
