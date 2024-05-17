@@ -7,4 +7,4 @@ each post in posts
             a(href='#') #{ post.author }
         p
             | #{ post.body.slice(0, 200) }...
-        a(href=`/${ post.slug }`) Continue reading
+        a(href=`http://localhost:3000/post/${ post.slug }`) Continue reading

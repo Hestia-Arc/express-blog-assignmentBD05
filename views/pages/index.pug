@@ -5,14 +5,14 @@ html
         meta(name='viewport' content='width=device-width, initial-scale=1')
         meta(name='description' content='')
         title #{ title }
-        link(href='css/app.css' rel='stylesheet')
-        link(href='css/index.css' rel='stylesheet')
-        link(href='css/blog.css' rel='stylesheet')
+        link(href='../css/app.css' rel='stylesheet')
+        link(href='../css/index.css' rel='stylesheet')
+        link(href='../css/blog.css' rel='stylesheet')
         script(type='text/javascript' src="/js/index.js")
     body
         // header
-        include layouts/header
+        include ../layouts/header
         // main content
         block content
         // footer
-        include layouts/footer
+        include ../layouts/footer
