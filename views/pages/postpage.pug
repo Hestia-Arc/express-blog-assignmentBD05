@@ -1,0 +1,16 @@
+extends index
+
+block content
+    main.container 
+         // blog posts
+         .row.g-5
+            .col-md-8
+                include single-post
+            .col-md-4
+                .position-sticky(style='top: 2rem;')
+                    // about
+                    include ../sidebar/about
+                    // archives
+                    include ../sidebar/archives
+                    // social links
+                    include ../sidebar/social-links
