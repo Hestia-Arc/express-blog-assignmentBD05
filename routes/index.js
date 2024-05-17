@@ -35,7 +35,7 @@ router.get('/', function(req, res, next) {
     links: navigationLinks,
     posts: data.filter((post) => ! post.is_featured),
     featuredPosts: data.filter((post) => post.is_featured),
-    archives: Array.from(new Set(dates))
+    archives: Array.from(new Set(dates)),
   });
 
 });
